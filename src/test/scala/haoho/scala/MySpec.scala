@@ -1,7 +1,10 @@
 //package haoho.scala
 //
+//import junit.framework.Test
 //import org.specs._
 //import org.specs.runner.{ConsoleRunner, JUnit4}
+//import org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get
+//import org.springframework.test.web.servlet.result.MockMvcResultMatchers.status
 //
 //class MySpecTest extends JUnit4(MySpec)
 ////class MySpecSuite extends ScalaTestSuite(MySpec)
@@ -13,5 +16,11 @@
 //      val list = Nil
 //      list must beEmpty
 //    }
+//  }
+//
+//  @Test
+//  @throws[Exception]
+//  def testGetCrawledData(): Unit = {
+//    mockMvc.perform(get("/svc/crawler/crawledData")).andExpect(status.is(200))
 //  }
 //}
